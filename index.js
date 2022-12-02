@@ -29,3 +29,11 @@ function maximo2() {
 }
 
 maximo2()
+
+//opcion3 con el método Math.max
+function maximo3() {
+  
+  console.log("El número más grande de la lista con el método 3 es: "+Math.max.apply(null,numeros));
+}
+
+maximo3();
